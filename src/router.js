@@ -12,12 +12,12 @@ export default new Router({
       path: "/",
       name: "home",
       component: Home
+    },
+    {
+      path: "/select",
+      name: "Select",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/VSelectPage.vue")
     }
-    // {
-    //   path: "/about",
-    //   name: "about",
-    //   component: () =>
-    //     import(/* webpackChunkName: "about" */ "./views/About.vue")
-    // }
   ]
 });

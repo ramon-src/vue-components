@@ -1,4 +1,4 @@
-# vuejs-my-components
+# vue-components
 
 ## Project setup
 ```
@@ -30,5 +30,5 @@ npm run lint
 npm run test:unit
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Util links
+[Dynamic components templates](https://medium.com/scrumpy/dynamic-component-templates-with-vue-js-d9236ab183bb)
